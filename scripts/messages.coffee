@@ -7,10 +7,10 @@ module.exports = (robot) ->
   robot.respond /universe/gim, (res) ->
     res.send "> GitHub is great, and Training Day is greater!!"
 
-  robot.respond /USERNAME/gim, (res) ->
+  robot.respond /briana/gim, (res) ->
     res.send " > That person is awesome"
 
-  robot.respond /fruit/gim, (res) ->
+  robot.respond /orange/gim, (res) ->
     res.send " > My favorites are apples and grapes."
 
   robot.respond /movie/gim, (res) ->
